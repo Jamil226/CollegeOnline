@@ -38,15 +38,33 @@ android {
 
 dependencies {
 
-    implementation(libs.retrofit)
-
-    implementation(libs.lottie)
-
 
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
+    //Card View & Recycler View
+    implementation(libs.cardview)
+    implementation(libs.recyclerview)
+
+    //REST API Implementation
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.converter.scalars)
+    implementation(libs.logging.interceptor)
+    implementation(libs.adapter.rxjava2)
+
+    //Lottie Animation
+    implementation(libs.lottie)
+    //GSON
+    implementation(libs.gson)
+    //Image Display from URL
+    implementation(libs.glide)
+    annotationProcessor(libs.compiler)
+
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">ServerDbApp</string>
+    <string name="app_name">College Online</string>
+    <string name="todo">TODO</string>
+    <string name="news_title">Ukraine conflict: Kyiv braces for a Russian assault</string>
+    <string name="news_category">World</string>
+    <string name="news_post_by">Admin</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

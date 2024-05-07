@@ -17,6 +17,5 @@ public class Splash extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
 
-        Toast.makeText(this, "Hello World!", Toast.LENGTH_SHORT).show();
     }
 }

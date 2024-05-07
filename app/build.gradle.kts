@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mac.retrofit"
+    namespace = "com.jamil.college"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mac.retrofit"
+        applicationId = "com.jamil.college"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,7 +38,6 @@ android {
 
 dependencies {
 
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -63,7 +62,8 @@ dependencies {
     implementation(libs.glide)
     annotationProcessor(libs.compiler)
 
-
+    //Circular Image View
+    implementation(libs.circleimageview)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

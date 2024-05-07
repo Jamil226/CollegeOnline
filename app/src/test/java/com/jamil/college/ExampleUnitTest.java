@@ -1,4 +1,4 @@
-package com.mac.retrofit;
+package com.jamil.college;
 
 import org.junit.Test;
 

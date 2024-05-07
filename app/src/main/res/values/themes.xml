@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ServerDbApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.CollegeOnline" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/colorPrimary</item>
     </style>
 
-    <style name="Theme.ServerDbApp" parent="Base.Theme.ServerDbApp" />
+    <style name="Theme.CollegeOnline" parent="Base.Theme.CollegeOnline" />
+
+    <style name="Theme.Splash" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
 </resources>

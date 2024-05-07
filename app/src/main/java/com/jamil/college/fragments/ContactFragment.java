@@ -1,4 +1,4 @@
-package com.mac.retrofit.fragments;
+package com.jamil.college.fragments;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.mac.retrofit.R;
+import com.jamil.college.R;
 
 public class ContactFragment extends Fragment {
 

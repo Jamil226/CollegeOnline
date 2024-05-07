@@ -17,4 +17,52 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="next">NEXT</string>
+    <string name="collegeNameMedium">Govt. Postgraduate College Sahiwal</string>
+    <string name="principalName">Prof. Dr. Mumtaz Ahmad</string>
+    <string name="start">GOT IT</string>
+    <string name="slideOneTitle">Welcome to GPGCS</string>
+    <string name="slideOneDescription">GPGCS says a warm welcome to newly installed users. Congratulations and welcome to one of the best college of Pakistan</string>
+    <string name="slideTwoTitle">College News</string>
+    <string name="slideTwoDescription">Get in Touch with College relevant information with our more user convenient and rich user interface</string>
+    <string name="slideThreeTitle">Revivified Timetable</string>
+    <string name="slideThreeDescription">For both Faculty Members and Students Timetable modules are accessible in app</string>
+    <string name="slideFourTitle">Faculty Section</string>
+    <string name="slideFourDescription">Dear faculty member please login to your account by entering provided auth details from IT Center in order to use the Application</string>
+    <string name="title_activity_student_dashboard">GPGCS</string>
+    <string name="nav_header_title">GPGCS</string>
+    <string name="nav_header_subtitle">govt.college.swl@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="strImportantLinks">Important Links</string>
+    <string name="strVuOpenCourseware">VU Open CourseWare</string>
+    <string name="strDgSkills">DigiSkills</string>
+    <string name="strEDX">edX</string>
+    <string name="strCoursera">Coursera</string>
+    <string name="strMIT">MIT CourseWare</string>
+    <string name="strUdemy">Udemy</string>
+    <string name="strKhanAcademy">Khan Academy</string>
+    <string name="strKaggle">Kaggle</string>
+    <string name="strFiverr">Fiverr</string>
+    <string name="strUpwork">Upwork</string>
+    <string name="strFreelancer">Freelancer</string>
+    <string name="strW3Schools">W3Schools</string>
+    <array name="days">
+        <item>Select Days</item>
+        <item>Monday - Wednesday</item>
+        <item>Thursday - Saturday</item>
+    </array>
+    <array name="lecture_number">
+        <item>Select Lecture</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+    </array>
 </resources>

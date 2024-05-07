@@ -157,7 +157,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_weight="0.5"
                 android:text="@string/scholarship_apply_link_label"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
             <TextView
                 android:id="@+id/tv_scholarship_link"
                 android:layout_width="wrap_content"
@@ -168,7 +168,7 @@
                 android:text="@string/scholarship_apply_link"
                 android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 android:layout_weight="1.5"
                 />
         </LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67750998503",
+    "project_id": "collegeonline-86027",
+    "storage_bucket": "collegeonline-86027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67750998503:android:c90358e590d898659c4d42",
+        "android_client_info": {
+          "package_name": "com.jamil.college"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClE1BJxbnzCcb6HYx1RHK3tDqxrNgKCiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

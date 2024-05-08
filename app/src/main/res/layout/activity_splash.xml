@@ -16,7 +16,19 @@
         android:layout_centerInParent="true"
         app:lottie_loop="true"/>
 
-
-
+    <TextView
+        android:id="@+id/tv_app_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/inter_light"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:text="@string/copyrights"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

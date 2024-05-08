@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/icon_white_news_app"
+            android:src="@drawable/ic_feedback"
             android:contentDescription="TODO" />
 
         <TextView

@@ -19,6 +19,9 @@ materialdatetimepicker = "3.2.0"
 recyclerview = "1.3.2"
 retrofit = "2.9.0"
 toasty = "1.5.0"
+googleGmsGoogleServices = "4.4.1"
+firebaseMessaging = "24.0.0"
+firebaseAuth = "23.0.0"
 
 [libraries]
 adapter-rxjava2 = { module = "com.squareup.retrofit2:adapter-rxjava2", version.ref = "adapterRxjava2" }
@@ -43,7 +46,10 @@ materialdatetimepicker = { module = "com.wdullaer:materialdatetimepicker", versi
 recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 toasty = { module = "com.github.GrenderG:Toasty", version.ref = "toasty" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 

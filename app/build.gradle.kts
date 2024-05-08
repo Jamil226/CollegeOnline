@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -60,6 +61,10 @@ dependencies {
     implementation(libs.gson)
     //Image Display from URL
     implementation(libs.glide)
+    //FCM
+    implementation(libs.firebase.messaging)
+    //Firebase Auth
+    implementation(libs.firebase.auth)
     annotationProcessor(libs.compiler)
 
     //Circular Image View

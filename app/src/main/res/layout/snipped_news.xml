@@ -91,21 +91,21 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:elevation="0dp"
-            app:cardCornerRadius="8dp">
 
-            <ImageView
+
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/tv_news_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_margin="20dp"
                 android:contentDescription="@string/todo"
-                android:src="@drawable/image_default" />
-        </androidx.cardview.widget.CardView>
+                android:src="@drawable/image_default"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:shapeAppearanceOverlay="@style/roundedImageView"
+                />
+
 
         <TextView
             android:id="@+id/tv_news_details"

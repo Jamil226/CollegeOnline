@@ -14,25 +14,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeOnline"
         tools:targetApi="31">
-
+        <activity
+            android:name=".News"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="true"
-            android:theme="@style/Theme.Splash">
-        </activity>
-
+            android:theme="@style/Theme.Splash"></activity>
         <activity
             android:name=".Welcome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

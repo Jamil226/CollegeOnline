@@ -94,7 +94,7 @@
 
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/tv_news_image"
+                android:id="@+id/iv_news_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
